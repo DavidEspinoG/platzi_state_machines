@@ -3,19 +3,24 @@ import './Passengers.css';
 
 export const Passengers = ({ state, send }) => {
   const [value, changeValue] = useState('');
-
   const onChangeInput = (e) => {
     changeValue(e.target.value);
   }
 
   const submit = (e) => {
     e.preventDefault();
+    send('ADD', {newPassenger: value})
     changeValue('');
+  }
+
+  const goToTicket = () => {
+    send('DONE')
   }
 
   return (
     <form onSubmit={submit} className='Passengers'>
       <p className='Passengers-title title'>Agrega a las personas que van a volar ✈️</p>
+      {state.context.passengers.map((element)=> <p key={element}>{element}</p>)}
       <input 
         id="name" 
         name="name" 
@@ -35,6 +40,7 @@ export const Passengers = ({ state, send }) => {
         <button
           className='Passenger-pay button'
           type="button"
+          onClick={goToTicket}
         >
           Ver mi ticket
         </button>
