@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/platzi_state_machines/tree/myBranch/static/css/main.357780aa.css",
+    "main.js": "/platzi_state_machines/tree/myBranch/static/js/main.354d37c0.js",
+    "static/js/787.80a68dfe.chunk.js": "/platzi_state_machines/tree/myBranch/static/js/787.80a68dfe.chunk.js",
+    "static/media/background-travel-2.jpg": "/platzi_state_machines/tree/myBranch/static/media/background-travel-2.1b3bc05ab3ab53a29ab2.jpg",
+    "index.html": "/platzi_state_machines/tree/myBranch/index.html",
+    "main.357780aa.css.map": "/platzi_state_machines/tree/myBranch/static/css/main.357780aa.css.map",
+    "main.354d37c0.js.map": "/platzi_state_machines/tree/myBranch/static/js/main.354d37c0.js.map",
+    "787.80a68dfe.chunk.js.map": "/platzi_state_machines/tree/myBranch/static/js/787.80a68dfe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.357780aa.css",
+    "static/js/main.354d37c0.js"
+  ]
+}
